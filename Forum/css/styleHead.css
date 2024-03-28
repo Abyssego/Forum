@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano:wght@400;700&display=swap');
+
+/* Début bar navigation */
+.head ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #424265;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 500;
+  font-family: Oregano;
+}
+
+.head #nav {
+  float: left;
+}
+
+.head #reste {
+  float: right;
+}
+
+
+.head li a {
+  display: block;
+  color: #BCBCBC;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 46px
+}
+
+.head li a:hover:not(.nav) {
+  background-color: #111;
+}
+
+/* Fin bar navigation */
+
+
+.head a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #BCBCBC;
+}
+
+.head #logo {
+  width: 120px;
+  height: 90px;
+}
+
+.head li a {
+  text-decoration: none;
+}
+/* Fin bar navigation */
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+.footer {
+  font-family: Oregano;
+  color: #BCBCBC;
+  /*margin: 0.1%;*/
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Début style de la case une */
+
+.footer #case-One {
+  display: inline-grid;
+}
+
+.footer #partie-One-One {
+  background-color: #646499;
+  padding-left: 2%;
+}
+
+.footer #partie-One-Two {
+  background-color: #454265;  
+  display: flex;
+  flex-direction: row;
+}
+
+.footer #partie-One-Two-One {
+  display: flex;
+  bottom: 0;
+  margin-left: 1%;
+  flex-direction: column;
+}
+
+.footer #partie-One-Two-Two {
+  margin-left: 70%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Fin style de la case une */
+/* Début style de la case deux */
+
+.footer #case-Two {
+  margin-top: 2%;
+  display: inline-grid;
+}
+
+.footer #partie-Two-One {
+  background-color: #646499;
+  padding-left: 2%;
+}
+
+.footer #partie-Two-Two {
+  background-color: #454265;  
+  display: flex;
+  flex-direction: row;
+}
+
+.footer #partie-Two-Two-One {
+  padding-left: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer #partie-Two-Two-Two {
+  margin-left: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer #partie-Two-Two-Two-One {
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Fin style de la case deux */
+/* Début style reste éléments */
+
+
+.footer .avatar {
+  margin-top: 5%;
+  margin-right: 10%;
+  width: 90px;
+  height: 70px;
+}
+
+.footer #titre {
+  font-size: 30px;
+}
+
+.avatar
+{
+
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 60px;
+  font-size: 300%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+

@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano:wght@400;700&display=swap');
+body{
+  background-color: #424A65;
+}
+
+
+/*Catchat*/
+#formCatcha {
+  display: grid;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+#captcha {
+  width: 150px;
+}
+
+
+/* Début bar navigation */
+.head ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #424265;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 500;
+  font-family: Oregano;
+}
+
+.head #nav {
+  float: left;
+}
+
+.head #reste {
+  float: right;
+}
+
+
+.head li a {
+  display: block;
+  color: #BCBCBC;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 46px
+}
+
+.head li a:hover:not(.nav) {
+  background-color: #111;
+}
+
+/* Fin bar navigation */
+
+
+.head a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #BCBCBC;
+}
+
+.head #logo {
+  width: 120px;
+  height: 90px;
+}
+
+.head li a {
+  text-decoration: none;
+}
+/* Fin bar navigation */
+
+
+/* Début body reste*/
+
+.body {
+  font-family: Oregano;
+  color: #BCBCBC;
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 10%;
+}
+
+.body #logo {
+  width: 110px;
+  height: 80px;
+}
+
+.body #imageProfile {
+  width: 90px;
+  height: 70px;
+}
+
+.body #titre {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #919191;
+}
+
+/* Fin body reste */
+/* Début style partie une */
+
+.body #partie-One {
+  display: inline-grid;
+  margin-top: 1%;
+}
+
+.body #partie-One-One {
+  margin-top: 2%;
+  display: flex;
+  background-color: #646499;
+  padding-left: 2%;
+}
+
+.body #partie-One-Two {
+  background-color: #454265;  
+  display: flex;
+  flex-direction: column;
+  /*flex-direction: row;*/ 
+}
+
+.body #partie-One-Two #rebrique {
+  margin-left: 1%;
+  width: 250px;
+
+}
+
+.body #partie-One-Two-One {
+  margin-left: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 85px
+}
+
+.body #partie-One-Two-Two { 
+  margin-left: 77%;
+  display: flex;
+  /*flex-direction: row;*/ 
+  justify-content: center;
+  position: relative;
+  bottom: 150px
+}
+
+.body #partie-One-Two-Two-One {
+
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  position: relative;
+  bottom: 40px
+}
+
+
+/* Fin style partie une */
+/* Début style partie deux */
+
+.body #partie-Two {
+  margin-top: 2%;
+  display: inline-grid;
+}
+
+.body #partie-Two-One {
+  background-color: #646499;
+  padding-left: 2%;
+}
+
+.body #partie-Two-Two {
+  background-color: #454265;  
+  display: flex;
+  flex-direction: row; 
+}
+
+/* Fin style partie deux */
+/* Début style partie trois */
+
+.body #partie-Three {
+  margin-top: 2%;
+  display: inline-grid;
+}
+
+.body #partie-Three-One {
+  background-color: #646499;
+  padding-left: 2%;
+}
+
+.body #partie-Three-Two {
+  background-color: #454265;  
+  display: flex;
+  flex-direction: row; 
+}
+
+.body #description {
+  display: flex;
+  width: 200%;
+}
+
+.body #sousTitre {
+  display: flex;
+  width: 200%;
+}
+/* Fin style partie trois */
+/* Début footer */
+
+.footer {
+  font-family: Oregano;
+  color: #BCBCBC;
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Début style de la case une */
+
+.footer #case-One {
+  display: inline-grid;
+}
+
+.footer #partie-One-One {
+  background-color: #646499;
+  padding-left: 2%;
+}
+
+.footer #partie-One-Two {
+  background-color: #454265;  
+  display: flex;
+  flex-direction: row;
+}
+
+.footer #partie-One-Two-One {
+  padding-left: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer #partie-One-Two-Two {
+  margin-left: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Fin style de la case une */
+/* Début style de la case deux */
+
+.footer #case-Two {
+  margin-top: 2%;
+  display: inline-grid;
+}
+
+.footer #partie-Two-One {
+  background-color: #646499;
+  padding-left: 2%;
+}
+
+.footer #partie-Two-Two {
+  background-color: #454265;  
+  display: flex;
+  flex-direction: row;
+}
+
+.footer #partie-Two-Two-One {
+  padding-left: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer #partie-Two-Two-Two {
+  margin-left: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer #partie-Two-Two-Two-One {
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Fin style de la case deux */
+/* Début style reste éléments */
+
+
+.footer #imageProfile {
+  margin-top: 5%;
+  margin-right: 10%;
+  width: 90px;
+  height: 70px;
+}
+
+.footer #titre {
+  font-size: 30px;
+}
+
+
+.body .test {
+  background-color: #646499;;
+  width: 100%;
+  height: 15px;
+}
+
+.admin
+{
+  color: red;
+}
+.modo
+{
+  color: green;
+}
+.paysan
+{
+  color: grey;
+}
+
+.avatar
+{
+
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 60px;
+  font-size: 300%;
+  margin-top: 1%;
+  text-align: center;
+}

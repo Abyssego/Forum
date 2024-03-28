@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano:wght@400;700&display=swap');
+body{
+  background-color: #424A65;
+}
+
+
+
+/* Début body reste*/
+
+.body {
+  font-family: Oregano;
+  color: #BCBCBC;
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Début footer */
+
+#categorie{
+  margin-top: 10%;
+  margin-left: 16%;  
+  font-family: Oregano;
+  color: #BCBCBC;
+  font-size: 34px
+}
+
+.membre{
+  margin-top: 10%;
+  margin-left: 16%;  
+  font-family: Oregano;
+  color: #BCBCBC;
+  font-size: 34px
+}
+
+.rubriques{
+  margin-top: 10%;
+  margin-left: 16%;
+  font-family: Oregano;
+  color: #BCBCBC;
+  font-size: 34px;
+  padding-bottom: 200px;
+}
+
+#boutton {
+  border-radius: 10px;
+  size: 20px;
+}
+
+input {
+  height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
