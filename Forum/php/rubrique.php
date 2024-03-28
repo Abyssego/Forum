@@ -196,13 +196,15 @@
 
 									<?php
 							
-									$conca = $cnn -> prepare('SELECT  contenuRep, dateRep, article.idMemb, rubrique.idRub, titreArt, article.idArt, COUNT(reponse.idRep), nomRub, descRub, substring(prenomMemb, 1, 1) as test
-							 									FROM categorie
-																 INNER JOIN rubrique ON categorie.idCat = rubrique.idCat
-																 INNER JOIN article ON rubrique.idRub = article.idRub
-																 INNER JOIN membre ON article.idMemb = membre.idMemb
-																 INNER JOIN reponse ON membre.idMemb = reponse.idMemb
-																 WHERE article.idArt = :idArticle');
+									$conca = $cnn->prepare('SELECT contenuRep, dateRep, article.idMemb, rubrique.idRub, titreArt, article.idArt, COUNT(reponse.idRep), nomRub, descRub, substring(prenomMemb, 1, 1) as test
+															FROM categorie
+															INNER JOIN rubrique ON categorie.idCat = rubrique.idCat
+															INNER JOIN article ON rubrique.idRub = article.idRub
+															INNER JOIN membre ON article.idMemb = membre.idMemb
+															INNER JOIN reponse ON membre.idMemb = reponse.idMemb
+															WHERE article.idArt = :idArticle
+															GROUP BY contenuRep, dateRep, article.idMemb, rubrique.idRub, titreArt, article.idArt, nomRub, descRub');
+
 
 									$conca->bindParam(':idArticle', $ligne['idArt'], PDO::PARAM_INT);
 									$conca->execute();
